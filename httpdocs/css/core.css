@@ -97,7 +97,7 @@ p code { position:relative; top:-1px; padding:3px 6px 3px 6px; background:#38383
 	-webkit-border-radius:2px; 
 	border-radius:2px; 
 	}
-pre { display:inline-block; margin-bottom:1.4em; padding:7px; background:#F3F3F3; 
+pre { display:inline-block; margin-bottom:1.4em; padding:4px; background:#F3F3F3; 
 	-moz-border-radius:4px;
 	-webkit-border-radius:4px;
 	border-radius:4px;
@@ -106,7 +106,7 @@ pre { display:inline-block; margin-bottom:1.4em; padding:7px; background:#F3F3F3
 	-webkit-box-shadow:rgba(0,0,0,0.12) 0 1px 2px inset;
 	box-shadow:rgba(0,0,0,0.12) 0 1px 2px inset;
 	}
-pre code { display:inline-block; overflow-x:auto; max-width:714px; padding:15px 10px; border:1px solid #2C2C2C; background:#2C2C2C; 
+pre code { display:inline-block; overflow-x:auto; max-width:720px; padding:15px 10px; border:1px solid #2C2C2C; background:#2C2C2C; 
 	-moz-border-radius:4px;
 	-webkit-border-radius:4px;
 	border-radius:4px;
@@ -487,7 +487,7 @@ body.cms-home #the-moon { height:590px; }
 .comment-count:active { color:#98BB29; }
 .comment-count:active:after { background-position:0 -30px; }
 
-.gravatar { padding:7px; background:#F3F3F3; 
+.gravatar { padding:4px; background:#F3F3F3; 
 	-moz-border-radius:4px; 
 	-webkit-border-radius:4px; 
 	border-radius:4px; 
@@ -568,8 +568,7 @@ body.cms-home #the-moon { height:590px; }
 .discourse ul { margin-bottom:15px; }
 .discourse li { padding:10px 0; border-bottom:1px solid #ECECEC; }
 
-.discourse h3 { margin-bottom:0; }
-.discourse time { margin-bottom:8px; }
+.discourse h3 { margin-bottom:8px; }
 .discourse .excerpt { margin-bottom:6px; }
 .discourse .excerpt p { margin-bottom:0; font-size:13px; }
 
@@ -737,6 +736,14 @@ body.cms-home #the-moon { height:590px; }
 
 /* promo */
 .hire { padding:30px; border-top:1px solid #ECECEC; }
+
+/* Dribbble */
+
+#dribbble { margin:0 30px; }
+#dribbble ul { overflow:hidden; }
+#dribbble li { float:left; margin-left:30px; }
+#dribbble li:first-child { margin-left:0; }
+#dribbble img { display:block; width:310px; }
 
 
 /*-------------------------------------------*/
@@ -930,7 +937,7 @@ body.cms-home #the-moon { height:590px; }
 /* author */
 .post-meta .meta-author { position:relative; width:134px; padding-left:76px; }
 .post-meta .meta-author .title { color:#808080; font-style:italic; }
-.post-meta .meta-author .gravatar { position:absolute; left:0; top:-6px; }
+.post-meta .meta-author .gravatar { position:absolute; left:0; top:-3px; }
 
 /* tags */
 .post-meta .meta-tags { width:600px; }
@@ -946,23 +953,24 @@ body.cms-home #the-moon { height:590px; }
 #discussion { margin-top:76px; margin-bottom:30px; }
 #discussion h2 { margin-bottom:0; padding:30px 30px 35px; background:url(images/divider.png) repeat-x bottom; font-size:36px; font-weight:100; font-style:italic; line-height:42px; text-transform:lowercase; }
 
-.comments-list { margin-top:26px; }
+.comments-list { margin-top:12px; }
 .comments-list li { position:relative; min-height:82px; padding-top:24px; border-bottom:1px solid #ECECEC; }
-.comments-list li:last-child { padding-bottom:10px; border-bottom:0; }
+.comments-list li:last-child { padding-bottom:12px; border-bottom:0; }
 .comments-list .is-author { border-left:10px solid #F03; }
 
-.comment h3 { position:absolute; left:106px; top:24px; }
-.comment time { position:absolute; right:30px; top:28px; text-align:right; }
-.comment article { margin:0 225px 24px 270px; }
-.comment article pre code { max-width:624px; }
-.comment .gravatar { position:absolute; left:30px; top:20px; }
+.comment { overflow:hidden; }
+.comment article { margin-bottom:24px; }
+.comment article header { float:left; width:141px; padding:0 30px 0 99px; }
+.comment article section { float:left; width:555px; }
 
-.comments blockquote 
-	{ margin:27px 0; padding:15px 20px; border-top:1px dashed #B1B1B1; border-bottom:1px dashed #B1B1B1; font-style:italic; }
+.comment h3 { margin-bottom:0; font-family:adelle, serif; font-size:14px; font-weight:600; line-height:1.5; }
+.comment time { /*position:absolute; right:30px; top:28px;*/ }
+.comment .gravatar { position:absolute; left:30px; top:23px; }
+.comment .comment-permalink { position:absolute; right:30px; top:23px; }
 
-/* lists */
-.comment article ol { list-style:decimal outside; margin-bottom:1.4em; }
-.comment article ul { list-style:disc outside; margin-bottom:1.4em; }
+.comment blockquote	{ margin:27px 0; padding:15px 20px; border-top:1px dashed #B1B1B1; border-bottom:1px dashed #B1B1B1; font-style:italic; }
+.comment ol { list-style:decimal outside; margin-bottom:1.4em; }
+.comment ul { list-style:disc outside; margin-bottom:1.4em; }
 
 
 /*-------------------------------------------*/
