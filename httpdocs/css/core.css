@@ -32,7 +32,11 @@ article, aside, audio, canvas, figure, figure img, figcaption, footer, header, h
 /*-------------------------------------------*/
 
 body, button, input, select, table, textarea { color:#404040; font-family:adelle, serif; font-size:14px; font-weight:300; line-height:1.7; }
-body { background:#F3F3F3; background:#F2F2EB; }
+
+body {
+	background:#F2F2EB; /* cream */
+	background:#F3F3F3; /* gray */
+	}
 
 /* Typography */
 
@@ -473,7 +477,7 @@ body.cms-home #the-moon { height:590px; }
 .btn.mass4:active
     { background:#98BB29; }
 
-.callout { margin-bottom:30px; padding:15px; border-top:5px solid #98BB29; background:#F7F7F0; }
+.callout { margin-bottom:30px; padding:15px; border-top:5px solid #98BB29; border-bottom:1px solid rgba(152, 187, 41, 0.25); background:#F7F7F0; }
 
 .comment-count { position:relative; margin-bottom:0; padding-left:20px; color:#808080; font-family:myriad-pro, sans-serif; font-size:16px; line-height:36px; }
 .comment-count:after { content:''; position:absolute; left:0; top:12px; width:15px; height:11px; background:url(images/sprite.png) 0 0 no-repeat; }
@@ -1122,7 +1126,7 @@ body.cms-home #the-moon { height:590px; }
 	column-gap:30px;
 	}
 
-.brendan .elsewhere { position:absolute; right:30px; top:0; width:210px; padding:15px; border-top:5px solid #98BB29; background:#F7F7F0; font-size:13px; line-height:1.4; }
+.brendan .elsewhere { position:absolute; right:30px; top:0; width:210px; font-size:13px; line-height:1.4; }
 .brendan .elsewhere a { position:relative; display:block; height:45px; margin-top:15px; padding:5px 0 0 60px; }
 .brendan .elsewhere img { position:absolute; left:0; top:0; width:50px; height:50px;
 	-moz-box-shadow:rgba(0,0,0,0.117188) 0px 1px 2px; 
