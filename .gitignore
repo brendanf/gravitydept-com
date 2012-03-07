@@ -1,8 +1,4 @@
-/blog-assets
-/concept
-/design
-/docs
-/httpdocs/css/images
-/httpdocs/gravitydept-com.esproj
-/httpdocs/media
-/source
+/Gravity Dept.esproj
+/css/images
+/less
+/media
