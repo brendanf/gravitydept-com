@@ -89,7 +89,7 @@ a:active { color:#F03; }
 /* Code */
 
 code { background:#2C2C2C; color:#FFF; font-family:Monaco, monospace; font-size:11px; line-height:15px; }
-p code { position:relative; top:-1px; padding:3px 6px 3px 6px; background:#383838; white-space:nowrap; 
+p code { position:relative; top:-1px; margin:0 2px; padding:3px; background:#888; white-space:nowrap; 
 	-moz-border-radius:2px; 
 	-webkit-border-radius:2px; 
 	border-radius:2px; 
@@ -873,7 +873,8 @@ body.cms-home #the-moon { height:620px; }
 .post h4, 
 .post > p, 
 .post > ul, 
-.post > ol 
+.post > ol,
+.post .tweet-embed
 	{ margin-right:225px; margin-left:270px; } /* columns on 135 180 225 270 315 360 */
 
 .post blockquote { margin-right:225px; margin-left:285px; } /* +15px indent */
@@ -929,6 +930,11 @@ body.cms-home #the-moon { height:620px; }
 
 .post blockquote.full { overflow:hidden; width:990px; margin:36px 0; padding:15px 30px; border-width:1px 0; border-style:solid; border-color:#F3F3F3; background:#FBFBFB; font-size:28px; font-weight:300; font-style:normal; line-height:36px; }
 .post blockquote.full cite { float:right; font-weight:300; }
+
+.post .tweet-embed { margin-bottom:1.7em; }
+.post .tweet-embed blockquote:before,
+.post .tweet-embed blockquote:after
+    { display:none; }
 
 /* Aside */
 
