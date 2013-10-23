@@ -898,8 +898,9 @@ body.cms-home #the-moon { height:620px; }
 .post > p, 
 .post > ul, 
 .post > ol,
-.post .embed-wrapper
-	{ margin-right:175px; margin-left:270px; } /* columns on 135 180 225 270 315 360 */
+.post .embed-wrapper,
+.post .twitter-tweet
+	{ margin-right:175px !important; margin-left:270px !important; } /* columns on 135 180 225 270 315 360 */
 
 .post blockquote { margin-right:175px; margin-left:285px; } /* +15px indent */
 .post pre { margin-left:270px; }
@@ -955,9 +956,11 @@ body.cms-home #the-moon { height:620px; }
 .post blockquote.full { overflow:hidden; width:990px; margin:36px 0; padding:15px 30px; border-width:1px 0; border-style:solid; border-color:#F3F3F3; background:#FBFBFB; font-size:28px; font-weight:300; font-style:normal; line-height:36px; }
 .post blockquote.full cite { float:right; font-weight:300; }
 
-.post blockquote.twt-tweet:before,
-.post blockquote.twt-tweet:after
-    { display:none; }
+/* Twitter Tweet Widget */
+
+.post .twitter-tweet { margin-bottom:1.6em !important; }
+
+/* YouTube + SpeakerDeck */
 
 .post .embed-wrapper { margin-bottom:1.6em; }
 

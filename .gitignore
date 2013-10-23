@@ -1,4 +1,5 @@
-/Gravity Dept.esproj
 /css/images
 /less
 /media
+*.espressostorage
+*.esproj
